@@ -8,7 +8,7 @@
 :root {
   --swiper-theme-color: #007aff;
 }
-.swiper-container {
+.swiper-container{
   width: 98%;
 
   margin-left: auto;
