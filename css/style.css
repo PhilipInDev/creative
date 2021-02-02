@@ -91,6 +91,12 @@ h6 {
 }
 
 @font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/monserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
   font-family: 'Ken';
   src: url('../fonts/kenyancoffeerg-bold/KenyanCoffeeRg-Bold/kenyan_coffee_bd.eot')
       format('eot'),
