@@ -52,7 +52,7 @@ new Swiper('.slider-blog-container', {
     el: '.slider-blog-scrollbar',
     draggable: true,
   },
-
+  touchRatio: 1.75,
   slidesPerView: 'auto',
   freeMode: true,
   spaceBetween: 52,
