@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -69,6 +69,13 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: inherit;
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  src: url("../fonts/Pacifico/Pacifico-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
@@ -437,7 +444,8 @@ body {
       grid-template-columns: minmax(100px, 200px) minmax(100px, 360px) minmax(50px, 120px);
   -ms-grid-rows: 50px 50px;
       grid-template-rows: 50px 50px;
-      grid-template-areas: 'think creative .' 'ley creative beast';
+      grid-template-areas: 'think creative .'
+ 'ley creative beast';
 }
 
 .title__think {
@@ -633,7 +641,9 @@ body {
         grid-template-columns: minmax(50px, 115px) minmax(100px, 120px);
     -ms-grid-rows: 50px 70px 50px;
         grid-template-rows: 50px 70px 50px;
-        grid-template-areas: 'think think' 'creative creative' 'ley beast';
+        grid-template-areas: 'think think'
+ 'creative creative'
+ 'ley beast';
   }
   .title__think {
     font-size: 25px;
@@ -728,7 +738,8 @@ body {
       grid-template-rows: 40px 50px;
   -webkit-column-gap: 7px;
           column-gap: 7px;
-      grid-template-areas: 'our work' 'latest work';
+      grid-template-areas: 'our work'
+ 'latest work';
 }
 
 .latest__slider-wrapper {
@@ -1094,7 +1105,8 @@ body {
         grid-template-columns: minmax(205px, 1fr) minmax(205px, 1fr);
     -ms-grid-rows: minmax(200px, 200px) minmax(200px, 200px);
         grid-template-rows: minmax(200px, 200px) minmax(200px, 200px);
-        grid-template-areas: 'left1 center1' 'right1 center1';
+        grid-template-areas: 'left1 center1'
+ 'right1 center1';
   }
   .slider-item__left {
     overflow: auto;
@@ -1338,7 +1350,8 @@ body {
         grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
     -ms-grid-rows: minmax(200px, 200px) minmax(200px, 200px);
         grid-template-rows: minmax(200px, 200px) minmax(200px, 200px);
-        grid-template-areas: 'center1 center1' 'center1 center1';
+        grid-template-areas: 'center1 center1'
+ 'center1 center1';
   }
   .slider-item__right {
     display: none;
@@ -2169,7 +2182,8 @@ body {
       grid-template-rows: 41px 43px;
   -webkit-column-gap: 3px;
           column-gap: 3px;
-      grid-template-areas: 'our blog .' 'latest blog posts';
+      grid-template-areas: 'our blog .'
+ 'latest blog posts';
   color: #ffffff;
   font-family: 'Ken';
   font-size: 52px;
@@ -2456,7 +2470,8 @@ body {
         grid-template-rows: 45px 47px;
     -webkit-column-gap: 1px;
             column-gap: 1px;
-        grid-template-areas: 'our blog posts' 'latest blog posts';
+        grid-template-areas: 'our blog posts'
+ 'latest blog posts';
     color: #ffffff;
     font-family: 'Ken';
     font-size: 50px;
